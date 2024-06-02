@@ -1,0 +1,1 @@
+# steam-deck-improved-magnification
