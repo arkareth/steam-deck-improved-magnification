@@ -1,0 +1,5 @@
+"MAGN=$(xprop -root STEAM_SCREEN_MAGNIFICATION | grep -Po '(\d+)') && MAGN=$((MAGN+50000)) && xprop -root -f STEAM_SCREEN_MAGNIFICATION 32c -set STEAM_SCREEN_MAGNIFICATION $MAGN"
+  Control+Shift + equal
+
+"MAGN=$(xprop -root STEAM_SCREEN_MAGNIFICATION | grep -Po '(\d+)') && MAGN=$((MAGN-50000)) && xprop -root -f STEAM_SCREEN_MAGNIFICATION 32c -set STEAM_SCREEN_MAGNIFICATION $MAGN"
+  Control+Shift + minus
